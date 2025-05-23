@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jash Kishnadwala - Portfolio</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <style>
+    /* Make the entire body a flex container */
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      background-color: #2093ba;
+    }
+
+    main {
+      flex: 1 0 auto; /* Allow main content to grow and push footer down */
+    }
+
+    footer {
+      flex-shrink: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="#">Jash Kishnadwala</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+              aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+               data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Graphic Design</a></li>
+              <li><a class="dropdown-item" href="#">Web Design</a></li>
+              <li><a class="dropdown-item" href="#">Video Editing</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" />
+          <button class="btn btn-outline-primary" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="container text-white mt-5">
+    <h1 class="text-center">Welcome to My Portfolio</h1>
+    <p class="text-center">I specialize in Graphic Design, Web Development, and Video Editing.</p>
+
+    <div class="row justify-content-center mt-4">
+      <div class="col-md-3 text-center mb-4">
+        <img src="https://dgmc.org.in/wp-content/uploads/2022/02/Graphic-Design-Course.-1.png" class="img-fluid rounded" alt="Graphic Design">
+        <h5 class="mt-2">Graphic Design</h5>
+      </div>
+      <div class="col-md-3 text-center mb-4">
+        <img src="https://dgmc.org.in/wp-content/uploads/2022/02/Graphic-Design-Course.-1.png" class="img-fluid rounded" alt="Web Design">
+        <h5 class="mt-2">Web Design</h5>
+      </div>
+      <div class="col-md-3 text-center mb-4">
+        <img src="https://dgmc.org.in/wp-content/uploads/2022/02/Graphic-Design-Course.-1.png" class="img-fluid rounded" alt="Video Editing">
+        <h5 class="mt-2">Video Editing</h5>
+      </div>
+	  <div class="col-md-3 text-center mb-4">
+        <img src="https://dgmc.org.in/wp-content/uploads/2022/02/Graphic-Design-Course.-1.png" class="img-fluid rounded" alt="Video Editing">
+        <h5 class="mt-2">Layout Styling</h5>
+      </div>
+
+      
+      
+	  
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-light text-center text-lg-start mt-auto">
+    <div class="text-center p-3" style="background-color: rgba(0,0,0,0.05);">
+      © 2025 Jash Kishnadwala | All Rights Reserved
+    </div>
+  </footer>
+
+  <!-- Bootstrap Bundle JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
